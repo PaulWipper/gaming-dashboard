@@ -1,13 +1,13 @@
 {
   "name": "gaming-dashboard",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "i": "pnpm -r install",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:backend": "cd backend && python3 tracker/main.py",
+    "dev": "run-p dev:frontend dev:backend"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.16.1"
+  "devDependencies": {
+    "npm-run-all": "^4.1.5"
+  }
 }
