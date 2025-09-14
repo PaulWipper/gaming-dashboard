@@ -1,0 +1,5 @@
+# TEMPLATE: füge später libs hinzu, z.B.:
+# psutil
+# requests
+# supabase
+# fastapi
