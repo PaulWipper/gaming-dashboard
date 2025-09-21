@@ -1,0 +1,288 @@
+{
+    "games": [
+        {
+            "name": "Modrinth - Minecraft",
+            "process": "javaw.exe"
+        },
+        {
+            "name": "League of Legends",
+            "process": "League of Legends.exe"
+        },
+        {
+            "name": "WhatsApp",
+            "process": "WhatsApp.exe"
+        },
+        {
+            "name": "Notion",
+            "process": "Notion.exe"
+        },
+        {
+            "name": "Arc",
+            "process": "Arc.exe"
+        },
+        {
+            "name": "Discord",
+            "process": "Discord.exe"
+        },
+        {
+            "name": "Grand Theft Auto V",
+            "process": "GTA5.exe"
+        },
+        {
+            "name": "Red Dead Redemption 2",
+            "process": "RDR2.exe"
+        },
+        {
+            "name": "Assassin's Creed: Valhalla",
+            "process": "ACValhalla.exe"
+        },
+        {
+            "name": "Assassin's Creed: Odyssey",
+            "process": "ACOdyssey.exe"
+        },
+        {
+            "name": "Cyberpunk 2077",
+            "process": "Cyberpunk2077.exe"
+        },
+        {
+            "name": "Tomb Raider (2013)",
+            "process": "TombRaider.exe"
+        },
+        {
+            "name": "Rise of the Tomb Raider",
+            "process": "ROTTR.exe"
+        },
+        {
+            "name": "Shadow of the Tomb Raider",
+            "process": "SOTTR.exe"
+        },
+        {
+            "name": "Hogwarts Legacy",
+            "process": "HogwartsLegacy.exe"
+        },
+        {
+            "name": "Call of Duty: Warzone",
+            "process": "ModernWarfare.exe"
+        },
+        {
+            "name": "Call of Duty: Black Ops Cold War",
+            "process": "BlackOpsColdWar.exe"
+        },
+        {
+            "name": "Call of Duty: Vanguard",
+            "process": "Vanguard.exe"
+        },
+        {
+            "name": "Battlefield 2042",
+            "process": "Battlefield2042.exe"
+        },
+        {
+            "name": "Battlefield V",
+            "process": "bfv.exe"
+        },
+        {
+            "name": "Valorant",
+            "process": "VALORANT-Win64-Shipping.exe"
+        },
+        {
+            "name": "Apex Legends",
+            "process": "r5apex.exe"
+        },
+        {
+            "name": "Counter-Strike: Global Offensive",
+            "process": "csgo.exe"
+        },
+        {
+            "name": "Overwatch",
+            "process": "Overwatch.exe"
+        },
+        {
+            "name": "Destiny 2",
+            "process": "Destiny2.exe"
+        },
+        {
+            "name": "DOOM Eternal",
+            "process": "DOOMEternalx64vk.exe"
+        },
+        {
+            "name": "The Witcher 3: Wild Hunt",
+            "process": "witcher3.exe"
+        },
+        {
+            "name": "Skyrim: Special Edition",
+            "process": "SkyrimSE.exe"
+        },
+        {
+            "name": "Fallout 4",
+            "process": "Fallout4.exe"
+        },
+        {
+            "name": "Elden Ring",
+            "process": "eldenring.exe"
+        },
+        {
+            "name": "Dark Souls III",
+            "process": "DarkSoulsIII.exe"
+        },
+        {
+            "name": "Diablo III",
+            "process": "Diablo III.exe"
+        },
+        {
+            "name": "World of Warcraft",
+            "process": "Wow.exe"
+        },
+        {
+            "name": "Baldur's Gate 3",
+            "process": "bg3.exe"
+        },
+        {
+            "name": "The Sims 4",
+            "process": "TS4.exe"
+        },
+        {
+            "name": "Cities: Skylines",
+            "process": "Cities.exe"
+        },
+        {
+            "name": "Planet Zoo",
+            "process": "PlanetZoo.exe"
+        },
+        {
+            "name": "Microsoft Flight Simulator",
+            "process": "FlightSimulator.exe"
+        },
+        {
+            "name": "Farming Simulator 22",
+            "process": "FarmingSimulator2022Game.exe"
+        },
+        {
+            "name": "Kerbal Space Program",
+            "process": "KSP.exe"
+        },
+        {
+            "name": "Minecraft: Java Edition",
+            "process": "Minecraft.exe"
+        },
+        {
+            "name": "League of Legends",
+            "process": "LeagueClient.exe"
+        },
+        {
+            "name": "Dota 2",
+            "process": "dota2.exe"
+        },
+        {
+            "name": "Smite",
+            "process": "Smite.exe"
+        },
+        {
+            "name": "New World",
+            "process": "NewWorld.exe"
+        },
+        {
+            "name": "Lost Ark",
+            "process": "LOSTARK.exe"
+        },
+        {
+            "name": "ARK: Survival Evolved",
+            "process": "ShooterGame.exe"
+        },
+        {
+            "name": "Rust",
+            "process": "RustClient.exe"
+        },
+        {
+            "name": "Subnautica",
+            "process": "Subnautica.exe"
+        },
+        {
+            "name": "Don't Starve Together",
+            "process": "dontstarve_steam.exe"
+        },
+        {
+            "name": "Valheim",
+            "process": "valheim.exe"
+        },
+        {
+            "name": "The Forest",
+            "process": "TheForest.exe"
+        },
+        {
+            "name": "Fortnite",
+            "process": "FortniteClient-Win64-Shipping.exe"
+        },
+        {
+            "name": "PUBG: Battlegrounds",
+            "process": "TslGame.exe"
+        },
+        {
+            "name": "Fall Guys",
+            "process": "FallGuys_client.exe"
+        },
+        {
+            "name": "Realm Royale",
+            "process": "RealmRoyale.exe"
+        },
+        {
+            "name": "Stardew Valley",
+            "process": "Stardew Valley.exe"
+        },
+        {
+            "name": "Hollow Knight",
+            "process": "HollowKnight.exe"
+        },
+        {
+            "name": "Terraria",
+            "process": "Terraria.exe"
+        },
+        {
+            "name": "Celeste",
+            "process": "Celeste.exe"
+        },
+        {
+            "name": "Undertale",
+            "process": "UNDERTALE.exe"
+        },
+        {
+            "name": "Among Us",
+            "process": "Among Us.exe"
+        },
+        {
+            "name": "Forza Horizon 5",
+            "process": "ForzaHorizon5.exe"
+        },
+        {
+            "name": "Forza Horizon 4",
+            "process": "ForzaHorizon4.exe"
+        },
+        {
+            "name": "Need for Speed: Heat",
+            "process": "NeedForSpeedHeat.exe"
+        },
+        {
+            "name": "F1 2022",
+            "process": "F122.exe"
+        },
+        {
+            "name": "FIFA 23",
+            "process": "FIFA23.exe"
+        },
+        {
+            "name": "FIFA 22",
+            "process": "FIFA22.exe"
+        },
+        {
+            "name": "NBA 2K23",
+            "process": "NBA2K23.exe"
+        },
+        {
+            "name": "Linear",
+            "process": "linear.exe"
+        },
+        {
+            "name": "Figma",
+            "process": "Figma.exe"
+        }
+    ]
+}
