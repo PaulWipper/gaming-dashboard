@@ -1,26 +1,42 @@
 import psutil
 import os
 from datetime import datetime as dt
-import json
+import pandas as pd
 import asyncio
+import csv
 
 base_path = os.path.dirname(os.path.abspath(__file__))
-target_path = os.path.join(base_path, "data", "targets.json")
-temp_data_path = os.path.join(base_path, "data", "temp_data.json")
+target_path = os.path.join(base_path, "../", "db", "targets.csv")
+data_path = os.path.join(base_path, "../", "db", "data.csv")
 
-tracking_data = {"games": []}
+DATA_COLUMNS = ["name", "process", "time_played_seconds", "last_use"]
+TARGET_COLUMNS = ["name", "process"]
+
+df_data = pd.DataFrame(columns=DATA_COLUMNS)
+df_targets = pd.DataFrame(columns=TARGET_COLUMNS)
 
 def initialize():
-    global tracking_data
-    with open(target_path, "r", encoding="utf-8") as f:
-        target_data = json.load(f)
-    targets = target_data.get("games", [])
+    global df_data
+    global df_targets
     try:
-        with open(temp_data_path, "r", encoding="utf-8") as f:
-            tracking_data = json.load(f)
+        df_targets = pd.read_csv(target_path, dtype={"name": "string", "process": "string"})
     except FileNotFoundError:
-        tracking_data = {"games": []}
-    return {"targets": targets}
+        df_targets = pd.DataFrame(columns=TARGET_COLUMNS)
+
+    targets = (df_targets[TARGET_COLUMNS]
+               .fillna("")
+               .to_dict(orient="records"))
+
+    try:
+        df_data = pd.read_csv(
+            data_path, 
+            dtype={"name": "string","process": "string", "time_played": "float64"},
+            parse_dates=["last_use", "first_use"]
+            )
+    except FileNotFoundError:
+        df_data = pd.DataFrame(columns=DATA_COLUMNS)
+
+    return targets
 
 async def track_target(target, lock: asyncio.Lock):
     global tracking_data
