@@ -8,4 +8,4 @@ data_path = os.path.join(base_path, "../", "db", "data.csv")
 
 df = pd.read_csv(data_path)
 
-print(df["name"])
+print(base_path)
