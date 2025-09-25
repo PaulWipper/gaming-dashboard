@@ -8,6 +8,8 @@ connection = sqlite3.connect(db_path)
 
 cursor = connection.cursor()
 
+cursor.execute
+
 #targets = '''create table if not exists Targets(
 #            ID integer primary key autoincrement,
 #            Name text,
@@ -22,12 +24,3 @@ cursor = connection.cursor()
 #            LastUse text,
 #            FirstUse text
 #            )'''
-
-sql = "select * from Targets"
-
-cursor.execute(sql)
-
-results = cursor.fetchall()
-
-for result in results:
-    print(result[1])
