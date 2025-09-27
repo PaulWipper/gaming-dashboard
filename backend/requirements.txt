@@ -1,2 +1,4 @@
 # TEMPLATE: füge später libs hinzu, z.B.:
 psutil
+asyncio
+fastapi
